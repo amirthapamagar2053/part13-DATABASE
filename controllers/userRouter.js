@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const { User } = require("../models");
+const { User, Note } = require("../models");
 
 // WITHOUT THE CONTENTS OF NOTES
 // router.get("/", async (req, res) => {

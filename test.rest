@@ -1,10 +1,10 @@
 POST http://localhost:3001/api/notes
 Content-type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1cGVyYWRtaW4iLCJpZCI6MSwiaWF0IjoxNjYyNjIxMjE2fQ.74K99Xw1blSrVuKoRTdhY8LXQjdW6PP5G5vMiUgEmiw
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjIsImlhdCI6MTY2MjYyNDcwMX0.Nov1I1NyX57PA08tpSt0J4cwrTz9xX-_QNPNqWstjNs
 
 {
-    "content":"This is the fourth content created using token",
-    "important":true
+    "content":"This is the fourth content created using token created by sudesh",
+    "important":false
 
 }
 
@@ -26,8 +26,8 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-    "username":"Superadmin",
-    "name":"root"
+    "username":"prisoner",
+    "name":"paul"
 }
 
 ###
@@ -35,7 +35,7 @@ POST http://localhost:3001/api/login
 Content-Type: application/json
 
 {
-    "username":"Superadmin",
+    "username":"admin",
     "password":"secret"
 }
 
